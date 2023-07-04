@@ -1,0 +1,43 @@
+.header {
+    background-image: url(../../src/img/header_inicio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: $negro;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: .5;
+    }
+}
+
+.contenido-header {
+    position: relative;
+    padding-top: 5rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 25rem;
+    }
+}
+
+.texto-header {
+    text-align: center;
+    color: $blanco;
+    margin-top: 10rem;
+    
+    h1 {
+        font-size: 5rem;
+    }
+}

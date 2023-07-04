@@ -1,0 +1,21 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "proyecto creado con SASS_GULP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Armas",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "install": "^0.13.0",
+    "npm": "^9.6.6",
+    "postcss": "^8.4.23",
+    "sass": "^1.62.1"
+  }
+}

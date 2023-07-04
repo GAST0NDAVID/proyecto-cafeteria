@@ -1,0 +1,20 @@
+// BASE
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/mixins';
+@import 'base/globales';
+
+//header
+@import 'header/header';
+@import 'header/nav';
+//
+
+@import 'main/main';
+@import 'main/galeria';
+@import 'main/iconos';
+
+
+@import 'menu/menu';
+@import 'menu/testimoniales';
+
+@import 'footer/footer';

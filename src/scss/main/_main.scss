@@ -1,0 +1,8 @@
+
+@use '../base/variables';
+@use '../base/mixins';
+
+.contenido-principal {
+    background-color: $blanco;
+    padding: 5rem 1rem;
+    }

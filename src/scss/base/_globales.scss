@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%; //10px = 1rem
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    background-color: $cafeClaro;
+}
+p {
+    color: $negro;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+h1, h2, h3 {
+    margin: 0 0 $separacion 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1 {
+    font-size: 4rem;    
+}
+h2 {
+    // font-size: 3.6rem;
+    color: $primario;
+    font-size: 5rem;
+
+    span {
+        color: $secundario;
+        font-size: 2.5rem;
+        display: block;
+    }
+
+    &::after {
+        content: '';
+        background-image: url(../../src/img/cafe.svg);
+        background-repeat: no-repeat;
+        display: block;
+        margin: 0 auto;
+        width: 15rem;
+        height: 10rem;
+    }
+}
+h3 {
+    font-size: 3.2rem;
+}
+
+// heredar todo el codigo del h2
+.heading-blanco {
+    @extend h2;
+    color: $blanco;
+    font-size: 3.6rem;
+
+    span {
+        color: $blanco;
+        font-size: 2rem;
+    }
+
+    &::after {
+        display: none;
+    }
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}

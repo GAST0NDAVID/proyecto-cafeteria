@@ -1,0 +1,17 @@
+@use '../base/variables';
+.nav-principal {
+    display: flex;
+    align-items: center;
+    
+    .activo{
+        color: $secundario;
+    }
+}
+
+a{ 
+    
+    text-align: center;
+    color: $blanco;
+    font-size: 2rem;
+    padding: 0.8rem;
+}

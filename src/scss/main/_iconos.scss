@@ -1,0 +1,34 @@
+
+@use '../base/variables';
+@use '../base/mixins';
+.nosotros {
+    h2 {
+        text-align: center;
+    } 
+    p {
+        font-size: 2rem;
+        font-family: $fuenteCursiva;
+        color: $primario;
+    }
+}
+.iconos{
+
+    .listado-iconos{
+        @include tablet{ 
+            @include grid(3, 2rem);
+        }
+        .icono{
+            img{
+                margin: 0 auto;
+                width: 12rem;
+            }
+            p{
+                font-family: $fuenteCursiva;
+                font-size: 3rem;
+                color: $primario;
+                text-align: center;
+                
+            }
+        }
+    }
+}
